@@ -1,2 +1,2 @@
-h1{color:red}
+.page-header{padding-top:20px;font-family:"Roboto",sans-serif;border:1px solid red}.page-header__logo{width:142px;background:url(../img/logo.png) no-repeat 50% 50%}.page-nav{font-family:"Roboto",sans-serif}@font-face{font-family:"Roboto";src:url(../fonts/roboto.woff2) format("woff2");font-style:normal;font-weight:400}@font-face{font-family:"Roboto";src:url(../fonts/roboto.woff) format("woff");font-style:normal;font-weight:400}.container{width:1024px;margin:0 auto}
 /*# sourceMappingURL=style.min.css.map */
