@@ -1,0 +1,21 @@
+.partners h4 {
+  margin-bottom: 40px;
+
+  font-size: 30px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.partners__item {
+  display: inline-block;
+  vertical-align: top;
+  width: 272px;
+  height: 134px;
+  margin-right: 20px;
+
+  border: 1px solid #ededed;
+}
+
+.partners__item:last-child {
+  margin-right: 0;
+}

@@ -3,49 +3,61 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/normalize.css" rel="stylesheet">
+  <!-- <link href="css/normalize.css" rel="stylesheet"> -->
   <link href="css/style.min.css" rel="stylesheet">
   <title>monstroy</title>
 </head>
 <body>
   <div class="container">
     <header class="page-header">
-      <div class="page-header__logo"></div>
-      <nav class="page-nav">
-        <ul>
-          <li>
-            <a href="#">Главная</a>
-          </li>
-          <li>
-            <a href="#">Услуги</a>
-          </li>
-          <li>
-            <a href="#">Проекты</a>
-          </li>
-          <li>
-            <a href="#">Партнеры</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="page-header__contact">
-        <a href="tel: +7(495)452-67-23">+7(495)452-67-23</a>
-        <a href="">Обратная связь</a>
+      <div class="header">
+        <div class="header__logo"></div>
+        <nav class="page-nav">
+          <ul>
+            <li>
+              <a href="#">Главная</a>
+            </li>
+            <li>
+              <a href="#">Услуги</a>
+            </li>
+            <li>
+              <a href="#">Проекты</a>
+            </li>
+            <li>
+              <a href="#">Партнеры</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="page-header__contact">
+          <a class="page-header__tel" href="tel: +7(495)452-67-23">+7(495)452-67-23</a>
+          <a class="page-header_communication" href="#page-footer">Обратная связь</a>
+        </div>
       </div>
-      <h1 class="page-header__title">Строительно - монтажные работы</h1>
-      <p class="page-header__text">Компания ЗАО «НCП «МонтCтрой» успешно работает на российском рынке с 1992 года, и за это
+      <div class="page-header__wrapper">
+        <h1 class="page-header__title">Строительно - монтажные работы</h1>
+        <!-- <p class="page-header__text">Компания ЗАО «НCП «МонтCтрой» успешно работает на российском рынке с 1992 года, и за это
         время зарекомендовала себя как ведущий разработчик качественных систем установок для преприятий,
         выполняет полный комплекс строительно-монтажных и пуско-наладочных работ по электроснабжению зданий и сооружений.
-      </p>
-      <a href="#">Наши услуги</a>
-      <a href="#">Связаться с нами</a>
-      <section class="about">
-        <div class="about__item"></div>
-        <div class="about__item"></div>
-        <div class="about__item"></div>
-      </section>
+        </p> -->
+        <div class="page-header-link">
+          <a class="page-header-link__service" href="#">НАШИ УСЛУГИ</a>
+          <a class="page-header-link__contact" href="#">СВЯЗАТЬСЯ С НАМИ</a>
+        </div>
+        <section class="about">
+          <div class="about__item about__item--like">
+            <p>Гарантированное высокое качество продукции</p>
+          </div>
+          <div class="about__item about__item--handshake">
+              <p>Исполнение всех сроков и обязательств</p>
+          </div>
+          <div class="about__item about__item--settings">
+              <p>Собственная производственная база</p>
+          </div>
+        </section>
+      </div>
     </header>
     <main class="page-main">
       <h2>Услуги</h2>
@@ -200,6 +212,7 @@
         </div>
       </section>
       <section class="project">
+        <h3>Проекты</h3>
         <div class="project__item"></div>
         <div class="project__item"></div>
         <div class="project__item"></div>
@@ -208,6 +221,7 @@
         <div class="project__item"></div>
       </section>
       <section class="partners">
+          <h4>Партнеры</h4>
           <div class="partners__item"></div>
           <div class="partners__item"></div>
           <div class="partners__item"></div>
@@ -215,7 +229,7 @@
       </section>
       <div class="map"></div>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer" id="page-footer">
       <div class="column-right">
         <div class="contact">
           <p class="contact__address">Варшавское шоссе, д 118, к. 1 Бизнес-центр "Варшавка Sky"</p>

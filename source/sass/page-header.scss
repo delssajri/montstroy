@@ -1,13 +1,60 @@
-.page-header {
-    padding-top: 20px;
+.page-header__contact {
+  display: flex;
+  margin-top: 16px;
 
-    font-family: "Roboto", sans-serif;
-
-    border: 1px solid red;
+  justify-content: space-between;
 }
 
-.page-header__logo {
-  width: 142px;
+.page-header__tel {
+  // display: inline-block;
+  margin-right: 25px;
+  margin-top: 16px;
 
-  background: url(../img/logo.png) no-repeat 50% 50%;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  font-style: bold;
+  color: #000000;
+
+  cursor: pointer;
+}
+
+.page-header_communication {
+  width: 182px;
+  height: 21px;
+  padding: 12px 0 12px;
+
+  text-decoration: none;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+  background-color: #00ffd8;
+
+  cursor: pointer;
+}
+
+.page-header__wrapper {
+  padding-top: 160px;
+
+  background: url("../img/bg.jpg") no-repeat 50% 50%;
+}
+
+.page-header__title {
+  margin-top: 0;
+  margin-bottom: 246px;
+  padding: 0;
+
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 60px;
+  line-height: 75px;
+  font-style: bold;
+  font-weight: 800;
 }

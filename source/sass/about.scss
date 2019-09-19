@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.about__item {
+  width: 240px;
+  padding-bottom: 78px;
+  position: relative;
+
+  text-align: center;
+}
+
+.about__item p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #b4b5b7;
+}
+
+.about__item::before {
+  position: absolute;
+  top: -95px;
+  left: 85px;
+
+  content: "";
+
+  width: 70px;
+  height: 70px;
+}
+
+.about__item--like::before {
+  background: url("../img/like.png") 50% 50% no-repeat;
+}
+
+.about__item--handshake::before {
+  background: url("../img/handshake.png") 50% 50% no-repeat;
+}
+
+.about__item--settings::before {
+  background: url("../img/settings.png") 50% 50% no-repeat;
+}

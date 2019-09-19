@@ -12,11 +12,55 @@
   font-weight: normal;
 }
 
-body {
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-bold.woff2") format("woff2");
+  font-style: bold;
+  font-weight: 700;
+}
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-bold.woff") format("woff");
+  font-style: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway-bold.woff") format("woff2");
+  font-style: bold;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway-bold.woff") format("woff");
+  font-style: bold;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway-500.woff") format("woff2");
+  font-style: bold;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/raleway-500.woff") format("woff");
+  font-style: bold;
+  font-weight: 500;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
     width: 1024px;
     margin: 0 auto;
+
+    border: 1px solid red;
 }

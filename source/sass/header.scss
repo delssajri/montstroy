@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 10px;
+
+  background-color: #ffffff;
+}
+
+.header__logo {
+  width: 142px;
+  height: 60px;
+  margin-right: 60px;
+
+  background: url(../img/logo.png) no-repeat 50% 50%;
+}
