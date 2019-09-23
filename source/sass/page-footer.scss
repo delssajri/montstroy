@@ -1,0 +1,16 @@
+.page-footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  background: #000000;
+}
+
+.page-footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 248px;
+}

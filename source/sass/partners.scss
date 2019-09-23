@@ -6,6 +6,27 @@
   color: #000000;
 }
 
+.partners {
+  position: relative;
+
+  width: 1024px;
+  margin-bottom: 128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners::before {
+  position: absolute;
+  top: 22px;
+  right: 0px;
+
+  content: "";
+  width: 755px;
+  height: 2px;
+
+  background-color: #000000;
+}
+
 .partners__item {
   display: inline-block;
   vertical-align: top;
@@ -20,18 +41,18 @@
   margin-right: 0;
 }
 
-.partners__item:nth-child(1) {
+.partners__item:nth-child(2) {
   background: url("../img/ava.png") no-repeat 50% 50%;
 }
 
-.partners__item:nth-child(2) {
+.partners__item:nth-child(3) {
   background: url("../img/mirror.png") no-repeat 50% 50%;
 }
 
-.partners__item:nth-child(3) {
+.partners__item:nth-child(4) {
   background: url("../img/shield.png") no-repeat 50% 50%;
 }
 
-.partners__item:nth-child(4) {
+.partners__item:nth-child(5) {
   background: url("../img/teplo.png") no-repeat 50% 50%;
 }

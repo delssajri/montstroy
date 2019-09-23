@@ -1,0 +1,21 @@
+.column-left {
+  width: 200px;
+  padding-top: 62px;
+}
+
+.column-left__logo {
+  width: 144px;
+  height: 60px;
+  margin-bottom: 60px;
+
+  background: url("../img/logo-footer.png") no-repeat 50% 50%;
+}
+
+.column-left__name {
+  display: block;
+  margin-bottom: 53px;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 38px;
+  color: #b8b8b7;
+}

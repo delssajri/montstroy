@@ -1,0 +1,22 @@
+.map {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 807px;
+  margin: 0 auto;
+
+  background: url("../img/map.jpg") no-repeat 50% 50%;
+}
+
+.map::before {
+  position: absolute;
+  top: 305px;
+  left: 500px;
+
+  content: "";
+  width:75px;
+  height: 100px;
+  fill: #41cdb8;
+  background: url("../img/mark.png") no-repeat 50% 50%;
+  background-size: contain;
+}
