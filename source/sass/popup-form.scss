@@ -1,0 +1,88 @@
+.popup {
+  display: none;
+  position: absolute;
+  top: 0px;
+  width: 400px;
+  padding: 46px 100px 36px 70px;
+
+  background: #ffffff;
+}
+
+.popup-form__title {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 36px;
+
+  text-align: center;
+
+  font-family: "Raleway", "Arial", sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 50px;
+  font-style: bold;
+  font-weight: 800;
+  color: #000000;
+}
+
+.popup-form__label input {
+  width: 178px;
+  padding: 8px 10px;
+
+  border: none;
+  border-bottom: 1px solid #cccccc;
+}
+
+.popup label {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+  font-style: bold;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.popup input {
+  display: block;
+}
+
+.popup-form__contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.popup-form__mail input,
+.popup-form__message input {
+  width: 100%;
+}
+
+.popup-form__message {
+  display: block;
+  margin-top: 35px;
+}
+
+.popup-form__text {
+  margin-top: 30px;
+  margin-bottom: 0;
+
+  text-align: center;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #a1a1a1;
+}
+
+.popup-form span {
+  display: block;
+  width: 190px;
+  padding: 0 0 8px 0;
+  margin: 0 auto 33px;
+
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  border-bottom: 1px dashed #a1a1a1;
+  color: #a1a1a1;
+}

@@ -42,7 +42,7 @@
         выполняет полный комплекс строительно-монтажных и пуско-наладочных работ по электроснабжению зданий и сооружений.
         </p> -->
         <div class="page-header-link">
-          <a class="page-header-link__service" href="#">НАШИ УСЛУГИ</a>
+          <a class="page-header-link__service" href="#services">НАШИ УСЛУГИ</a>
           <a class="page-header-link__contact" href="#">СВЯЗАТЬСЯ С НАМИ</a>
         </div>
         <section class="about">
@@ -58,10 +58,9 @@
         </section>
       </div>
     </div>
-  <!-- </div> -->
     </header>
     <main class="page-main">
-      <section class="services">
+      <section class="services" id="services">
         <h2>Услуги</h2>
         <div class="services__wrapper">
           <div class="services__item">
@@ -170,7 +169,7 @@
                 <a href="#">Проверка состояния различных устройств заземления;</a>
               </li>
               <li>
-                <a href="#">Проверка наличия цепи, проведение замеров сопротивлений, проведение замеров сопротивления (переходных)
+                <a href="#">Проверка наличия цепи, проведение замеров сопротивления (переходных)
                 между заземляющими проводниками и заземлителями, проверку металлосвязи;</a>
               </li>
               <li>
@@ -222,34 +221,40 @@
             <p>В целях обеспечения электроэнергией стадиона специалистами было осуществеленно строительство
                распределительной сети мощностью 20кВ
             </p>
+            <a href="#">&rarr;</a>
           </div>
           <div class="project__item">
             <b>Бизнес-центр "Ореол"</b>
             <p>Специалисты провели масштабную работу по организации АСКУЭ на 694 точки учета комплекса с апартаментами
             </p>
+            <a href="#">&rarr;</a>
           </div>
           <div class="project__item">
             <b>Кинотеатр "Семейный"</b>
             <p>Специалисты выполнили комплекс работ по системам учета электроэнергии
             </p>
+            <a href="#">&rarr;</a>
           </div>
           <div class="project__item">
             <b>TK "Medial"</b>
             <p>В целях обеспечения электроэнергией телевизионного комплекса было осуществлено строительство распределительной сети
               мощностью 20кВ
             </p>
+            <a href="#">&rarr;</a>
           </div>
           <div class="project__item">
               <b>ОАО "ЭнергоНацКомпании"</b>
               <p>Компанией были выполнены строительно-монтажные работы и пусконаладочные работы, а также поставлены материалы и оборудованием
                  при осуществлении ремонта электросетевого имущества кабельных линий 220кВ для ОАО "ЭнергоНацКомпании"
               </p>
+              <a href="#">&rarr;</a>
           </div>
           <div class="project__item">
               <b>Театр "Буратино"</b>
               <p>Специалистами были проведены комплексные электро-монтажные и пуско-наладочные работы по механизации сценических подъемников
                 в здании театра
               </p>
+              <a href="#">&rarr;</a>
           </div>
         </div>
       </section>
@@ -267,7 +272,7 @@
       <div class="page-footer__wrapper">
         <div class="column-left">
               <div class="column-left__logo"></div>
-              <div class="column-left__name">ЗАО "НСП "МонтСрой"</div>
+              <div class="column-left__name">ЗАО &laquo;НСП &laquo;МонтСрой&raquo;</div>
               <div class="social">
                 <ul>
                   <li>
@@ -284,13 +289,34 @@
             </div>
       <div class="column-right">
         <div class="contact">
-          <p class="contact__address">Варшавское шоссе, д 118, к. 1 Бизнес-центр "Варшавка Sky"</p>
+          <p class="contact__address">Варшавское шоссе, д 118, к. 1 Бизнес-центр &laquo;Варшавка Sky&raquo;</p>
           <a class="contact__mail" href="zao@montstroy.ru">zao@montstroy.ru</a>
           <a class="contact__tel" href="tel: +7(495)452-67-23">+7(495)452-67-23</a>
         </div>
       </div>
     </div>
     </footer>
-  </div>
+    <div class="popup">
+      <form class="popup-form" method="get">
+        <p class="popup-form__title">Свяжитесь с нами</p>
+        <div class="popup-form__contact">
+          <label class="popup-form__label popup-form__name">Имя
+            <input type="text" name="name">
+          </label>
+          <label class="popup-form__label popup-form__phone">Телефон
+            <input type="text" name="phone">
+          </label>
+        </div>
+        <label class="popup-form__label popup-form__mail">E-mail
+          <input type="text" name="mail">
+        </label>
+        <label class="popup-form__label popup-form__message">Сообщение
+          <input type="text" name="message">
+        </label>
+        <p class="popup-form__text">Заполняя форму на сайте, вы соглашаетесь с нашей</p>
+        <span>Политикой конфиценциальностей</span>
+        <button class="btn">Отправить</button>
+      </form>
+    </div>
 </body>
 </html>

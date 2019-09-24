@@ -1,11 +1,13 @@
 .page-header__contact {
   display: flex;
+  width: 370px;
   margin-top: 16px;
 
   justify-content: space-between;
 }
 
 .page-header__tel {
+  display: block;
   margin-right: 25px;
   margin-top: 16px;
 
@@ -21,7 +23,7 @@
 }
 
 .page-header_communication {
-  width: 182px;
+  width: 180px;
   height: 21px;
   padding: 12px 0 12px;
 
@@ -45,7 +47,7 @@
 }
 
 .page-header__title {
-  width: 1024px;
+  width: 1170px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;

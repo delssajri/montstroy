@@ -1,6 +1,8 @@
 .partners h4 {
   margin-bottom: 40px;
 
+  text-transform: uppercase;
+
   font-size: 30px;
   line-height: 50px;
   color: #000000;
@@ -9,7 +11,7 @@
 .partners {
   position: relative;
 
-  width: 1024px;
+  width: 1170px;
   margin-bottom: 128px;
   margin-left: auto;
   margin-right: auto;
@@ -21,7 +23,7 @@
   right: 0px;
 
   content: "";
-  width: 755px;
+  width: 868px;
   height: 2px;
 
   background-color: #000000;
@@ -30,9 +32,9 @@
 .partners__item {
   display: inline-block;
   vertical-align: top;
-  width: 230px;
+  width: 268px;
   height: 134px;
-  margin-right: 28px;
+  margin-right: 26px;
 
   border: 1px solid #ededed;
 }

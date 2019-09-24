@@ -1,6 +1,6 @@
 .project {
   position: relative;
-  width: 1024px;
+  width: 1170px;
   margin-bottom: 116px;
   margin-left: auto;
   margin-right: auto;
@@ -12,7 +12,7 @@
   right: 0px;
 
   content: "";
-  width: 755px;
+  width: 868px;
   height: 2px;
 
   background-color: #000000;
@@ -33,7 +33,28 @@
   color: #000000;
 }
 
+.project__item a {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: block;
+  width: 45px;
+  padding: 8px 0;
+
+  text-align: center;
+  text-decoration: none;
+  color: #a1a1a1;
+
+  border: 2px solid #a1a1a1;
+}
+
+.project__item a:hover {
+  background: #00ffd8;
+  border: 2px solid #00ffd8;
+}
+
 .project__item {
+  position: relative;
   box-sizing: border-box;
   height: 290px;
   padding-left: 30px;
@@ -65,7 +86,7 @@
 .project__item:nth-child(2),
 .project__item:nth-child(3),
 .project__item:nth-child(4) {
-  width: 253px;
+  width: 290px;
   margin-right: 3px;
 }
 
@@ -91,7 +112,7 @@
 
 .project__item:nth-child(6),
 .project__item:nth-child(5) {
-  width: 510px;
+  width: 583px;
   margin-top: 4px;
 }
 
