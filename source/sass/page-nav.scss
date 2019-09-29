@@ -35,3 +35,9 @@
 .page-nav a:hover {
   color: #000000;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .page-nav {
+    display: none;
+  }
+}

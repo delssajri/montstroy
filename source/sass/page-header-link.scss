@@ -34,3 +34,27 @@
   color: #ffffff;
   border: 1px solid #00ffd8;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .page-header-link {
+    width: 768px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 130px;
+  }
+
+  .page-header-link__service {
+    width: 292px;
+
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .page-header-link__contact {
+    width: 292px;
+
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

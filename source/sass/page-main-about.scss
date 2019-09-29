@@ -1,0 +1,63 @@
+.page-main-about {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+}
+
+.page-main-about__item {
+  width: 218px;
+  padding-bottom: 34px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+
+  text-align: center;
+}
+
+.page-main-about__item p {
+  padding-top: 96px;
+
+  font-size: 12px;
+  line-height: 20px;
+  color: #b4b5b7;
+}
+
+.page-main-about__item::after {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+
+  content: "";
+
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+}
+
+.page-main-about__item--like::after {
+  background: url("../img/like-leptop.svg") 50% 50% no-repeat;
+}
+
+.page-main-about__item--handshake::after {
+  background: url("../img/handshake-leptop.svg") 50% 50% no-repeat;
+}
+
+.page-main-about__item--settings::after {
+  background: url("../img/settings-leptop.svg") 50% 50% no-repeat;
+}
+
+.page-main-about {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .page-main-about {
+    display: flex;
+    margin-bottom: 42px;
+  }
+}

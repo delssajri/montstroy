@@ -4,6 +4,7 @@
   vertical-align: top;
 
   font-size: 0;
+  background: white;
 }
 
 .social ul {
@@ -23,8 +24,6 @@
 
 .social__link {
   display: block;
-
-  color: #ffffff;
 }
 
 .social__link--vk {
@@ -35,13 +34,14 @@
 
 .social__link--tv {
   width: 25px;
-  height: 20px;
-  background: url("../img/tv.png") no-repeat 50% 50%;
+  height: 25px;
+  background: url("../img/tv2.svg") no-repeat 50% 50%;
+  fill: red;
 }
 
-.social__link--tv:hover {
-  color: #ffffff;
-}
+// .social__link--tv:hover {
+//   color: #ffffff;
+// }
 
 .social__link--fb {
   width: 12px;

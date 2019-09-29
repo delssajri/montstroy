@@ -5,6 +5,8 @@
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
+
+  border: 1px solid red;
 }
 
 .services__wrapper {
@@ -15,7 +17,7 @@
 
 .services h2 {
   margin-top: 0;
-  margin-bottom: 57px;
+  margin-bottom: 42px;
 
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -94,4 +96,20 @@
 
 .services__item a:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .services {
+    width: 724px;
+    padding: 0 22px;
+  }
+
+  .services h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .services::before {
+    display: none;
+  }
 }

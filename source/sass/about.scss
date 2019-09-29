@@ -42,3 +42,9 @@
 .about__item--settings::before {
   background: url("../img/settings.png") 50% 50% no-repeat;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about {
+    display: none;
+  }
+}
